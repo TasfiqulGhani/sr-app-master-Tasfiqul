@@ -1,0 +1,36 @@
+<resources>
+    <!-- Application name -->
+    <string name="app_name">Sharon recipes</string>
+    <string name="subtitle">Indian Veg and Non veg recipes</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- link of your wordpress api (/api/) -->
+    <string name="link">http://shubhasharon.com/api/</string>
+    <!-- put just the link of your wordpress website with / at the end -->
+    <string name="linkPushNotif">http://shubhasharon.com/</string>
+
+    <!-- google play store app link -->
+    <string name="playStoreLink">https://play.google.com/store/apps/details?id=com.shubhasharon</string>
+
+    <!-- Contact us message -->
+    <string name="contactUs">our social media profiles </string>
+    <string name="Blog_FB_page">https://www.facebook.com/Dz.wail</string>
+
+    <!-- About App message -->
+    <string name="aboutApp">Sharon's recipes</string>
+    <string name="developerName"> Shubha sharon</string>
+    <string name="developer_FB_page">https://www.facebook.com/cookwithshubhasharon</string>
+    <string name="description">Shubha sharon is a house wife, cooks amazing food and teaches How to make them easily. Her motto is "Learn any recipe under 5 minutes". She has made hundreds of Indian recipes, creates short and beautiful videos on youtube and also has a website in which she writes detailed step by step instructions for each recipe with photos, and videos.</string>
+
+    <!-- AdMob Ids -->
+    <string name="banner_home_footer">ca-app-pub-8533004717624284/5967770146</string>
+    <string name="interstitial_full_screen">ca-app-pub-8533004717624284/3062405206</string>
+    <string name="rewarded_video">ca-app-pub-8533004717624284/3885843732</string>
+
+
+
+</resources>

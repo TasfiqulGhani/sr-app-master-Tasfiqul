@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubhasharon">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".ApplicationClass">
+        <activity android:name=".ui.Home.OpenArticle"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+        </activity>
+        <activity android:name="com.shubhasharon.ui.Splash"
+            android:theme="@style/AppTheme2"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.FavActivity"
+            android:label="@string/app_name"
+            />
+        <activity android:name="com.shubhasharon.ui.ContactActivity">
+
+        </activity>
+        <activity android:name="com.shubhasharon.ui.AboutActivity">
+
+        </activity>
+        <activity
+            android:name="com.shubhasharon.ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ui.Categories.GetCategoriesActivity" />
+        <activity android:name=".ui.Categories.OpenCategoryActivity" />
+        <activity android:name=".ui.Comments.CommentsActivity" />
+        <activity android:name=".ui.dialogs.AddComment"
+            android:theme="@style/AppCompatAlertDialogStyle"/>
+
+        <service android:name=".FCM.MyFCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FCM.FCMRegistrationService" />
+        <service android:name=".FCM.FCMTokenRefreshListenerService" />
+
+
+    </application>
+
+
+</manifest>

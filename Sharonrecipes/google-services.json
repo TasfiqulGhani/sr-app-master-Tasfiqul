@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "385435134369",
+    "firebase_url": "https://sharon-recipes-app.firebaseio.com",
+    "project_id": "sharon-recipes-app",
+    "storage_bucket": "sharon-recipes-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385435134369:android:ae222b4a4bbe2f75",
+        "android_client_info": {
+          "package_name": "com.shubhasharon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385435134369-0lgg5dq8cv2fnj803kpjpfu9i6hmetfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSrMMvZyosfYdid8fmb5LhNkSI2ZvpUCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

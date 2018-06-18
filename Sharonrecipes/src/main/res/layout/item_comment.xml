@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="3dp">
+
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_comment"
+        android:padding="15dp"
+        android:text="Helloooooo"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/comment"
+        android:layout_alignStart="@+id/comment"
+        android:layout_below="@+id/comment"
+        android:alpha="0.6"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/username"
+        android:layout_toRightOf="@+id/username"
+        android:alpha="0.4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+</RelativeLayout>
